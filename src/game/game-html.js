@@ -389,7 +389,6 @@
                 <div class="avatar-grid" id="avatarGrid"></div>
             </div>
             <button class="close-modal" onclick="saveProfileAndClose()" style="margin-top: 12px;">✓ Guardar</button>
-            <button class="close-modal" onclick="window.signOut && window.signOut()" style="margin-top: 6px; background: rgba(239,68,68,0.15); border-color: rgba(239,68,68,0.4); color: #ef4444;">🚪 Cerrar sesión</button>
         </div>
     </div>
 
