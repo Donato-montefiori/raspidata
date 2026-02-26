@@ -30,6 +30,7 @@ export default function Game({ uid }: Props) {
 
     // 2. Bridge between React sync layer and the game engine
     const bridge = {
+      signOut: () => signOut(),
       save: (data: unknown) => persistSave(data as SaveBlob),
       loadSync: () => bridgeLoadSync(),
       clearLocal: () => bridgeClearLocal(),
@@ -59,26 +60,6 @@ export default function Game({ uid }: Props) {
 
       {/* Game container is ALWAYS in the DOM so containerRef is never null */}
       <div ref={containerRef} id="game-root" />
-
-      <button
-        onClick={signOut}
-        style={{
-          position: "fixed",
-          bottom: 12,
-          right: 12,
-          zIndex: 9999,
-          background: "rgba(0,0,0,0.55)",
-          color: "#fff",
-          border: "1px solid rgba(255,255,255,0.18)",
-          borderRadius: 8,
-          padding: "6px 12px",
-          fontSize: "0.75rem",
-          cursor: "pointer",
-          backdropFilter: "blur(6px)",
-        }}
-      >
-        Cerrar sesión
-      </button>
     </>
   );
 }

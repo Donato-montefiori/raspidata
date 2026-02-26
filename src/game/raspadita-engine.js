@@ -8084,6 +8084,7 @@ document.addEventListener('pointermove', function(e) {
 // ===== ENGINE INIT (called by React Game component) =====
 export function initEngine(bridge) {
     gameBridge = bridge;
+    if (bridge && bridge.signOut) { try { window.signOut = bridge.signOut; } catch(e) {} }
     try { localStorage.setItem('upgradesExpanded', '0'); } catch(e) {}
     try { toggleUpgrades(false); } catch(e) {}
     initUpgradesFold();
