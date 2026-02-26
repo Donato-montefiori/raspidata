@@ -1,4 +1,4 @@
-﻿    <style>
+    <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 /* Custom Scrollbar */
@@ -42,7 +42,7 @@ body.world-2 .btn-primary:disabled { background: linear-gradient(135deg, #3a3a3a
 /* World 2: raspar button as circle in circle-btns row, positioned after forja */
 body.world-2 .game-buttons { display: none; }
 body.world-2 .circle-btns .raspar-circle-wrapper { display: flex; order: 3; }
-body.world-2 .circle-btns > div:nth-child(2) { order: 1; } /* AlmacÃƒÂ©n */
+body.world-2 .circle-btns > div:nth-child(2) { order: 1; } /* Almacén */
 body.world-2 .circle-btns > div:has(.btn-fusion) { display: none; } /* Forja hidden in W2 */
 body.world-2 .circle-btns .compressor-wrapper { display: flex; order: 2; }
 body.world-2 .circle-btns > div:has(.btn-polish) { display: none; }
@@ -165,7 +165,7 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
     /* Move amulet avatar slightly down so it sits better visually */
     transform: translateY(2px);
 }
-/* Sol Atrapado: mÃƒÂ¡s chico y centrado en el avatar de perfil */
+/* Sol Atrapado: más chico y centrado en el avatar de perfil */
 .profile-avatar .avatar-gem.avatar-amulet[data-amulet="sol_atrapado"] {
     width: 26px;
     height: 26px;
@@ -254,7 +254,7 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
 .gema-poder-icon > .gem-svg-icon { width: 100%; height: 100%; }
 .gema-poder-icon > .gem-svg-icon svg { width: 100%; height: 100%; }
 
-/* Finales dropdown menu Ã¢â‚¬â€ slides from behind the gem like username box */
+/* Finales dropdown menu — slides from behind the gem like username box */
 .finales-menu {
     position: absolute;
     left: 50%;
@@ -389,7 +389,7 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
     cursor: not-allowed;
 }
 .avatar-option.locked::after {
-    content: 'Ã°Å¸â€â€™';
+    content: '🔒';
     position: absolute;
     font-size: 0.55rem;
     bottom: -1px;
@@ -422,100 +422,20 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
 }
 
 /* Import/Export section */
-.data-section {
-    background: rgba(59,130,246,0.1);
-    border: 1px solid rgba(59,130,246,0.3);
-    padding: 12px;
-    border-radius: 12px;
-    margin-top: 10px;
-}
-.data-section h3 {
-    color: #60a5fa;
-    font-size: 0.8rem;
-    margin-bottom: 8px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-}
-.data-buttons {
-    display: flex;
-    gap: 8px;
-}
-.data-btn {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-    font-size: 0.7rem;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-.data-btn.export-btn {
-    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-    color: white;
-}
-.data-btn.import-btn {
-    background: linear-gradient(135deg, #22c55e, #16a34a);
-    color: white;
-}
-.data-btn:hover {
-    transform: scale(1.02);
-    filter: brightness(1.1);
-}
-.data-textarea {
-    width: 100%;
-    height: 70px;
-    padding: 8px;
-    background: rgba(0,0,0,0.4);
-    border: 1px solid rgba(255,255,255,0.2);
-    border-radius: 8px;
-    color: #e2e8f0;
-    font-size: 0.6rem;
-    font-family: monospace;
-    resize: none;
-    margin-top: 8px;
-    box-sizing: border-box;
-}
-.copy-data-btn {
-    position: absolute;
-    top: 12px;
-    right: 6px;
-    width: 28px;
-    height: 28px;
-    background: rgba(59,130,246,0.3);
-    border: 1px solid rgba(59,130,246,0.5);
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 0.8rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s;
-}
-.copy-data-btn:hover {
-    background: rgba(59,130,246,0.5);
-    transform: scale(1.1);
-}
-.copy-data-btn.copied {
-    background: rgba(34,197,94,0.4);
-    border-color: rgba(34,197,94,0.6);
-}
-.data-status {
-    font-size: 0.65rem;
-    margin-top: 6px;
-    padding: 6px;
-    border-radius: 6px;
-    text-align: center;
-}
-.data-status.success {
-    background: rgba(34,197,94,0.2);
-    color: #4ade80;
-}
-.data-status.error {
-    background: rgba(239,68,68,0.2);
-    color: #f87171;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Custom Dialog Modals */
 .custom-dialog-overlay {
@@ -698,7 +618,7 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
 
 .equipped-amulet .amulet-inner { pointer-events: none; }
 
-/* Sol Atrapado Ã¢â‚¬â€ replaces the + button when equipped */
+/* Sol Atrapado — replaces the + button when equipped */
 .sol-atrapado-btn {
     display: none;
     width: 36px;
@@ -763,7 +683,7 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
 .upgrade-section.collapsed { padding-bottom: 8px; }
 .upgrade-section:not(.collapsed) .upgrade-caret { transform: rotate(180deg); }
 
-/* Fuerza estilo consistente para el botÃƒÂ³n de suerte (por si algÃƒÂºn navegador lo rompe) */
+/* Fuerza estilo consistente para el botón de suerte (por si algún navegador lo rompe) */
 #upgradeLuckBtn { 
     padding: 7px 16px; 
     font-size: 0.75rem; 
@@ -793,7 +713,7 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
 
 .scratch-card { position: relative; width: 270px; height: 180px; border-radius: 16px; overflow: hidden; box-shadow: 0 18px 45px rgba(0,0,0,0.5), 0 0 0 3px rgba(128,128,128,0.5), 0 0 25px rgba(128,128,128,0.1); }
 .scratch-card.broken { filter: grayscale(50%) brightness(0.7); }
-.scratch-card.broken::after { content: 'Ã°Å¸â€™â€ ROTA'; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.5rem; color: #ef4444; font-weight: 900; text-shadow: 0 0 10px black; z-index: 50; }
+.scratch-card.broken::after { content: '💔 ROTA'; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 1.5rem; color: #ef4444; font-weight: 900; text-shadow: 0 0 10px black; z-index: 50; }
 .scratch-card.golden { box-shadow: 0 18px 45px rgba(0,0,0,0.5), 0 0 0 3px rgba(255,215,0,1), 0 0 25px rgba(255,215,0,0.4); }
 
 /* Ticket border based on luck level */
@@ -936,7 +856,7 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
 }
 .creative-section-title:hover { background: rgba(255,255,255,0.05); }
 .creative-section-title::after {
-    content: 'Ã¢â€“Â¾'; font-size: 0.7rem; color: #888; transition: transform 0.25s;
+    content: '▾'; font-size: 0.7rem; color: #888; transition: transform 0.25s;
 }
 .creative-section.collapsed .creative-section-title::after { transform: rotate(-90deg); }
 .creative-section-body {
@@ -1078,7 +998,7 @@ body.world-2 .circle-btns > .pronto-wrapper { order: 4; }
 .li-stats-section.collapsed .li-stats-body { display: none; }
 .li-stats-section.collapsed { border-radius: 12px; }
 
-/* AnimaciÃƒÂ³n de nuevo ticket */
+/* Animación de nuevo ticket */
 .ticket-container { position: relative; width: 270px; height: 180px; }
 .ticket-old { 
     position: absolute; 
@@ -1210,7 +1130,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
 .btn-coming-soon + .circle-btn-label { color: rgba(107,114,128,0.6); margin-top: 0px; }
 .circle-btns > .pronto-wrapper { margin-top: -4px; margin-left: -6px; position: relative; }
 
-/* BotÃƒÂ³n prÃƒÂ³ximamente con contorno igual a la Grieta del Mal */
+/* Botón próximamente con contorno igual a la Grieta del Mal */
 .btn-coming-soon {
     width: 72px;
     height: 72px;
@@ -1382,7 +1302,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
 }
 .pronto-popup-remove:hover { color: #ef4444; }
 
-/* PrÃƒÂ³ximamente modal */
+/* Próximamente modal */
 .proximamente-overlay {
     position: fixed;
     top: 0; left: 0;
@@ -1451,7 +1371,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
     top: 0; left: 0; 
     width: 100vw; 
     height: 100vh;
-    height: 100dvh; /* viewport dinÃƒÂ¡mico para mÃƒÂ³viles */
+    height: 100dvh; /* viewport dinámico para móviles */
     background: rgba(0,0,0,0.9); 
     display: none; 
     justify-content: center; 
@@ -1468,7 +1388,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
     padding: 20px; 
     max-width: 480px; 
     width: 100%; 
-    max-height: none; /* sin lÃƒÂ­mite, el overlay hace scroll */
+    max-height: none; /* sin límite, el overlay hace scroll */
     margin: auto 0; /* centrar verticalmente si cabe */
     border: 2px solid rgba(255,215,0,0.4); 
     position: relative;
@@ -1497,7 +1417,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
 .close-modal-red { background: linear-gradient(135deg, #ef4444, #dc2626); color: white; }
 .close-modal-red:hover { background: linear-gradient(135deg, #f87171, #ef4444); }
 
-/* Header almacÃƒÂ©n */
+/* Header almacén */
 .almacen-header { position: relative; display: flex; flex-direction: column; align-items: center; }
 .almacen-header h2 { margin: 0; }
 .almacen-level { position: absolute; left: 0; top: 0; color: white; font-size: 0.85rem; font-weight: 600; }
@@ -1523,7 +1443,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
 .tab { flex: 1; padding: 8px; background: rgba(0,0,0,0.3); border: none; border-radius: 8px; color: #888; font-size: 0.6rem; font-weight: 600; cursor: pointer; }
 .tab.active { background: rgba(255,215,0,0.2); color: #ffd700; }
 
-/* BotÃƒÂ³n de ordenar */
+/* Botón de ordenar */
 .sort-btn {
     width: 30px;
     height: 30px;
@@ -1674,7 +1594,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
 .gem-card.polished-gem { position: relative; overflow: visible; }
 .gem-card.polished-gem .gem-emoji { position: relative; display: inline-block; animation: polished-pulse 2s ease-in-out infinite; filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.8)); }
 .gem-card.polished-gem::before { content: ''; position: absolute; font-size: 0.8rem; top: 5px; left: 50%; transform: translateX(-50%); animation: sparkle-rotate 3s linear infinite; pointer-events: none; }
-.gem-card.polished-gem::after { content: 'Ã¢Å“Â¨'; position: absolute; font-size: 0.6rem; bottom: 35%; right: 10%; animation: sparkle-rotate-reverse 2.5s linear infinite; pointer-events: none; }
+.gem-card.polished-gem::after { content: '✨'; position: absolute; font-size: 0.6rem; bottom: 35%; right: 10%; animation: sparkle-rotate-reverse 2.5s linear infinite; pointer-events: none; }
 /* Pulidas: swipe interno (horizontal) sin romper scroll vertical */
 .gem-card.polished-gem { touch-action: pan-y; }
 .gem-variant-dots {
@@ -1764,7 +1684,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
     background: rgba(255,255,255,0.4);
 }
 .polish-file-bar::after { 
-    content: 'Ã¢â€“Â¼'; 
+    content: '▼'; 
     position: absolute; 
     bottom: -16px; 
     left: 50%; 
@@ -1834,7 +1754,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
     100% { opacity: 0; transform: scale(0.3); }
 }
 
-/* FusiÃƒÂ³n */
+/* Fusión */
 .fusion-area { text-align: center; }
 .fusion-instruction { background: rgba(167,139,250,0.1); padding: 8px; border-radius: 10px; margin-bottom: 8px; border: 1px dashed rgba(167,139,250,0.3); }
 .fusion-instruction p { color: #c4b5fd; font-size: 0.65rem; margin: 2px 0; }
@@ -1864,7 +1784,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
 .pachinko-result .slot-reel { height: 65px; }
 .pachinko-result .slot-reel .slot-emoji { font-size: 1.5rem; width: 45px; height: 45px; }
 .pachinko-result .slot-label { font-size: 0.45rem; color: #c4b5fd; margin-top: auto; padding-bottom: 3px; text-align: center; max-width: 65px; z-index: 3; }
-/* Sol Atrapado: bajar ligeramente su SVG dentro de los slots de fusiÃƒÂ³n */
+/* Sol Atrapado: bajar ligeramente su SVG dentro de los slots de fusión */
 .slot-reel .slot-emoji .gem-svg-icon[data-gem-id="sol_atrapado"],
 .slot-reel .slot-emoji svg[data-gem="sol_atrapado"] { margin-top: 3px; }
 .pachinko-result .slot-reel .slot-emoji .gem-svg-icon[data-gem-id="sol_atrapado"],
@@ -2103,7 +2023,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
     100% { transform: translateY(-80vh) scale(0); opacity: 0; }
 }
 
-/* BotÃƒÂ³n de fusiÃƒÂ³n (UI relacionada) */
+/* Botón de fusión (UI relacionada) */
 .fusion-btn { 
   margin-top: 10px; padding: 12px 28px; font-size: 0.9rem; font-weight: 700; 
   color: white; background: linear-gradient(135deg, #9f7aea, #d53f8c); 
@@ -2158,7 +2078,7 @@ body.world-2 .progress-fill { background: linear-gradient(90deg, #f97316, #dc262
 .gc-input-locked #godCrownCinematic { pointer-events: auto; }
 
 /* ===== CRYO FREEZE SEQUENCE ===== */
-/* Cryo freeze warning Ã¢â‚¬â€ floating-gem style overlay with ice colors */
+/* Cryo freeze warning — floating-gem style overlay with ice colors */
 .cryo-warn-overlay {
     position: fixed; top: 0; left: 0;
     width: 100vw; height: 100vh; height: 100dvh;
