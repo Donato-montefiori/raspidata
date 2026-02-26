@@ -8105,4 +8105,60 @@ export function initEngine(bridge) {
     window.addEventListener('beforeunload', () => {
         if (_saveTimeout) { clearTimeout(_saveTimeout); _doSaveGame(); }
     });
+    // Expose to window for inline onclick handlers
+    try { window.activateFavor = activateFavor; } catch(e) {}
+    try { window.closeAlmacen = closeAlmacen; } catch(e) {}
+    try { window.closeAmuletInfoModal = closeAmuletInfoModal; } catch(e) {}
+    try { window.closeCompressor = closeCompressor; } catch(e) {}
+    try { window.closeCreativeMenu = closeCreativeMenu; } catch(e) {}
+    try { window.closeCrownConfirm = closeCrownConfirm; } catch(e) {}
+    try { window.closeCryoWarning = closeCryoWarning; } catch(e) {}
+    try { window.closeExpandModal = closeExpandModal; } catch(e) {}
+    try { window.closeFusion = closeFusion; } catch(e) {}
+    try { window.closePolish = closePolish; } catch(e) {}
+    try { window.closePortalWarning = closePortalWarning; } catch(e) {}
+    try { window.closeProximamente = closeProximamente; } catch(e) {}
+    try { window.confirmCryoFreeze = confirmCryoFreeze; } catch(e) {}
+    try { window.confirmPortalTravel = confirmPortalTravel; } catch(e) {}
+    try { window.confirmResetGame = confirmResetGame; } catch(e) {}
+    try { window.confirmUseGodCrown = confirmUseGodCrown; } catch(e) {}
+    try { window.creativeApplyChances = creativeApplyChances; } catch(e) {}
+    try { window.creativeEquipAmulet = creativeEquipAmulet; } catch(e) {}
+    try { window.creativeGiveAll = creativeGiveAll; } catch(e) {}
+    try { window.creativeGiveAmulet = creativeGiveAmulet; } catch(e) {}
+    try { window.creativeGiveFusion = creativeGiveFusion; } catch(e) {}
+    try { window.creativeGiveGem = creativeGiveGem; } catch(e) {}
+    try { window.creativeGiveSilver = creativeGiveSilver; } catch(e) {}
+    try { window.creativeResetChances = creativeResetChances; } catch(e) {}
+    try { window.creativeSetAlmacen = creativeSetAlmacen; } catch(e) {}
+    try { window.creativeSetLuck = creativeSetLuck; } catch(e) {}
+    try { window.creativeSetMaxSilver = creativeSetMaxSilver; } catch(e) {}
+    try { window.creativeToggleInfinite = creativeToggleInfinite; } catch(e) {}
+    try { window.executeCompression = executeCompression; } catch(e) {}
+    try { window.executeFusion = executeFusion; } catch(e) {}
+    try { window.godCrownPersist = godCrownPersist; } catch(e) {}
+    try { window.godCrownReborn = godCrownReborn; } catch(e) {}
+    try { window.newGame = newGame; } catch(e) {}
+    try { window.openAlmacen = openAlmacen; } catch(e) {}
+    try { window.openCompressor = openCompressor; } catch(e) {}
+    try { window.openExpandModal = openExpandModal; } catch(e) {}
+    try { window.openFusion = openFusion; } catch(e) {}
+    try { window.openLevelInfoModal = openLevelInfoModal; } catch(e) {}
+    try { window.openPolish = openPolish; } catch(e) {}
+    try { window.openProfileModal = openProfileModal; } catch(e) {}
+    try { window.openSettings = openSettings; } catch(e) {}
+    try { window.removeProntoGem = removeProntoGem; } catch(e) {}
+    try { window.saveProfileAndClose = saveProfileAndClose; } catch(e) {}
+    try { window.setFocusGem = setFocusGem; } catch(e) {}
+    try { window.showAlmacenTab = showAlmacenTab; } catch(e) {}
+    try { window.toggle = toggle; } catch(e) {}
+    try { window.toggleAlmacenSort = toggleAlmacenSort; } catch(e) {}
+    try { window.toggleFinalesMenu = toggleFinalesMenu; } catch(e) {}
+    try { window.toggleFullscreen = toggleFullscreen; } catch(e) {}
+    try { window.toggleSetting = toggleSetting; } catch(e) {}
+    try { window.toggleUpgrades = toggleUpgrades; } catch(e) {}
+    try { window.upgradeAlmacen = upgradeAlmacen; } catch(e) {}
+    try { window.upgradeLuck = upgradeLuck; } catch(e) {}
+    try { window.useGodCrown = useGodCrown; } catch(e) {}
+
 }
