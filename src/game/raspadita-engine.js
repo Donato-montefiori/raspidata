@@ -8158,5 +8158,13 @@ export function initEngine(bridge) {
     try { window.equipAmulet = equipAmulet; } catch(e) {}
     try { window.unequipAmulet = unequipAmulet; } catch(e) {}
     try { window.useGodCrown = useGodCrown; } catch(e) {}
+    try { window.closeWinMessage = closeWinMessage; } catch(e) {}
+    try { window.abrirBolsaRellena = abrirBolsaRellena; } catch(e) {}
+    try { window.almacenarPrize = almacenarPrize; } catch(e) {}
+    try { window.buyMaxUpgrade = buyMaxUpgrade; } catch(e) {}
+    try { window.cancelReset = cancelReset; } catch(e) {}
+    try { window.confirmReset = confirmReset; } catch(e) {}
+    try { window.returnFavor = returnFavor; } catch(e) {}
+    try { window.venderLimpia = venderLimpia; } catch(e) {}
 
 }
