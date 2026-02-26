@@ -1,4 +1,5 @@
-export const gameHtml = `    <div class="game-wrapper" id="gameWrapper">
+export const gameHtml = `<div class="stars" id="stars"></div>
+    <div class="game-wrapper" id="gameWrapper">
         <div class="header">
             <div class="profile-header" onclick="openProfileModal()">
                 <div class="profile-avatar" id="profileAvatar">
@@ -621,5 +622,4 @@ export const gameHtml = `    <div class="game-wrapper" id="gameWrapper">
             <button class="gc-btn gc-btn-reborn" onclick="godCrownReborn()">🔄 Renacer</button>
             <button class="gc-btn gc-btn-persist" onclick="godCrownPersist()">👑 Persistir</button>
         </div>
-    </div>
-`;
+    </div>`;
