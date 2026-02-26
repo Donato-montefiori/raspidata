@@ -1,4 +1,4 @@
-// ===== RASPADITA ENGINE — ES MODULE =====
+﻿// ===== RASPADITA ENGINE — ES MODULE =====
 // Bridge injected by initEngine(). Falls back to localStorage when not set.
 let gameBridge = null;
 const $ = id => document.getElementById(id);
@@ -6912,10 +6912,6 @@ function openProfileModal() {
     // Renderizar grid de avatares
     renderAvatarGrid();
     
-    // Limpiar textarea y status
-    $('dataTextarea').value = '';
-    $('dataStatus').style.display = 'none';
-    
     $('profileModal').classList.add('show');
     deferSliders();
 }
@@ -8159,6 +8155,8 @@ export function initEngine(bridge) {
     try { window.toggleUpgrades = toggleUpgrades; } catch(e) {}
     try { window.upgradeAlmacen = upgradeAlmacen; } catch(e) {}
     try { window.upgradeLuck = upgradeLuck; } catch(e) {}
+    try { window.equipAmulet = equipAmulet; } catch(e) {}
+    try { window.unequipAmulet = unequipAmulet; } catch(e) {}
     try { window.useGodCrown = useGodCrown; } catch(e) {}
 
 }
